@@ -5,23 +5,31 @@
 .qc_white{
 	background-color:rgba(255,255,255,0.2);
 }
-.qc_yellow{
+.qc_yellow, .qchover_yellow{
 	background-color:rgba(243,194,73,0.2);
 	color:rgb(199,120,27);
 }
-.qc_red{
+.qchover_yellow:hover{
+	background-color:rgb(199,120,27);
+	color:rgba(236,226,201,1);
+}
+.qc_red, .qchover_red{
 	background-color:rgba(255,80,80,0.1);
 	color:rgb(177,0,7);
 }
-.qc_blue{
+.qchover_red:hover{
+	background-color:rgb(177,0,7);
+	color:rgba(255,219,219,1);
+}
+.qc_blue, .qchover_blue{
 	background-color:rgba(0,84,168,0.1);
 	color:rgb(0,122,192);
 }
-.qc_green{
-	background-color:rgba(146,208,80,0.1);
-	color:rgb(0,156,40);
+.qchover_blue:hover{
+	background-color:rgb(0,122,192);
+	color:rgba(210,219,228,1);
 }
-.qchover_green{
+.qc_green, .qchover_green{
 	background-color:rgba(146,208,80,0.1);
 	color:rgb(0,156,40);
 }
