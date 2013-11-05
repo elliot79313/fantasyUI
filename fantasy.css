@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+/*  QSearch fantasyUI project */
+/*  Version: 0.1 */
+.qc_white{
+	background-color:rgba(255,255,255,0.2);
+}
+.qc_yellow{
+	background-color:rgba(243,194,73,0.2);
+	color:rgb(199,120,27);
+}
+.qc_red{
+	background-color:rgba(255,80,80,0.1);
+	color:rgb(177,0,7);
+}
+.qc_blue{
+	background-color:rgba(0,84,168,0.1);
+	color:rgb(0,122,192);
+}
+.qc_green{
+	background-color:rgba(146,208,80,0.1);
+	color:rgb(0,156,40);
+}
+.qchover_green{
+	background-color:rgba(146,208,80,0.1);
+	color:rgb(0,156,40);
+}
+.qchover_green:hover{
+	color:rgb(218,225,212);
+	background-color:rgb(0,156,40);
+}
+
